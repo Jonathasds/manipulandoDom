@@ -73,7 +73,7 @@ button:hover{
 #result{
     color: white;
    word-wrap: break-word;
-   font-size: 2.3em;
+   font-size: 2em;
 }
 
 
@@ -88,4 +88,20 @@ footer p {
     margin-top: 5px;
     font-family: cursive;
     
+}
+
+
+#operação{
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(185, 185, 190);
+    border-radius: 10px;
+}
+
+#sinal option{
+    display: flex;
 }

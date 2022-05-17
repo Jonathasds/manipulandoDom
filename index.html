@@ -9,12 +9,18 @@
 </head>
 <body>
     <header>
-        <h1>Somas dos números</h1>
+        <h1>Calculadora simples</h1>
     </header>
     <div class="container">
     <input type="number" id="num1" placeholder="escolha o numero">
+    <select name="operação" id="operação">
+        <option value="-">-</option>
+        <option value="+">+</option>
+        <option value="/">/</option>
+        <option value="*">x</option>
+      </select>
     <input type="number" id="num2" placeholder="escolha o numero">
-    <button name="somar" onclick="somar()" >somar</button>
+    <button name="calcular" onclick="calcular()" >resolver</button>
     </div>
 <div class="resultado">
    <span id="result">...</span>
